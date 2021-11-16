@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.Select;
 public class SelectClassDemo {
 	
 	public static void main(String[] args) {
-		//Lunch the browser.  
+		//Launch the browser.  
 		System.setProperty("webdriver.chrome.driver", 
 				"C:\\Users\\ELCOT\\eclipse-workspace\\SeleniumProject\\Drivers\\chromedriver.exe");
 		//create the upcasting refName.
@@ -28,7 +28,7 @@ public class SelectClassDemo {
 		//1.index
 		//2.value
 		//3.visible text
-		
+	
 		//select the visible text options
 		//syntax: selectByVisible(String text);
 		select.selectByVisibleText("Volvo");
@@ -87,7 +87,8 @@ public class SelectClassDemo {
 			System.out.println("get the text: "+option.getText());
 			System.out.println("get tag name"+option.getTagName());
 		}
-		
+	
+		//close the browser..
 		driver.quit();
 	}
 
