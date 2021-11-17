@@ -47,12 +47,8 @@ public class WebDriverDemo {
 		driver.close();
 		
 		//close the browser window.
-		driver.quit();
-		
-		
-		
-		
-		
+		driver.quit();	
 	}
 
 }
+
