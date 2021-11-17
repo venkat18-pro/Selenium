@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.Select;
 public class SelectClassDemo {
 	
 	public static void main(String[] args) {
-		//Launch the browser.  
+		//Lunch the browser.  
 		System.setProperty("webdriver.chrome.driver", 
 				"C:\\Users\\ELCOT\\eclipse-workspace\\SeleniumProject\\Drivers\\chromedriver.exe");
 		//create the upcasting refName.
