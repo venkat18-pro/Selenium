@@ -28,6 +28,8 @@ public class SelectClassDemo {
 		//1.index
 		//2.value
 		//3.visible text
+		
+		
 		//select the visible text options
 		//syntax: selectByVisible(String text);
 		select.selectByVisibleText("Volvo");
@@ -86,6 +88,8 @@ public class SelectClassDemo {
 			System.out.println("get the text: "+option.getText());
 			System.out.println("get tag name"+option.getTagName());
 		}
+		
+		
 		//close the browser..
 		driver.quit();
 	}
